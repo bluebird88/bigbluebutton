@@ -156,7 +156,7 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-ehcache</artifactId>
-      <version>3.3.1.GA</version>
+      <version>4.1.1.Final</version>
         <exclusions>
           <!-- See http://www.slf4j.org/faq.html#IllegalAccessError -->
           <exclusion>
@@ -259,7 +259,7 @@
   </repositories>
   
   <build>
-    <pluginManagement />
+    <pluginManagement/>
     
     <plugins>
       <plugin>
